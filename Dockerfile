@@ -1,9 +1,9 @@
 FROM nginx:alpine
 
-# Copy custom nginx configuration
-COPY nginx.conf /etc/nginx/conf.d/default.conf
+# Copy konfigurasi Nginx dari docker/nginx/
+COPY docker/nginx/nginx.conf /etc/nginx/conf.d/default.conf
 
-# Copy web files to default nginx root
+# Copy berkas web ke root Nginx
 COPY . /usr/share/nginx/html
 
 EXPOSE 80
