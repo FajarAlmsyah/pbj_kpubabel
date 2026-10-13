@@ -1,0 +1,8 @@
+PBJ AKADEMI V3 – CARA MEMBUKA
+1. Ekstrak seluruh ZIP.
+2. Buka folder offline lalu klik dua kali index.html.
+3. Untuk latihan try out 2025 saja: Mulai Latihan > Asal soal: E-learning historis; pilih semua soal dalam filter.
+4. Untuk seluruh bank: klik Gunakan seluruh 294 soal; atur jumlah dan timer sesuai kebutuhan.
+5. Pilihan historis benar/salah tetap sesuai hasil 2025. Untuk 27 jawaban yang salah, kunci resmi tidak tersedia.
+6. Berkas materi/tryout-historis.pdf kini berisi sumber lengkap 28 halaman.
+7. Jika progres lama tidak terlihat, impor cadangan JSON dari versi sebelumnya.

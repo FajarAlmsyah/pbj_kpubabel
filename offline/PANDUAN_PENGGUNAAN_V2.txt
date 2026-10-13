@@ -1,0 +1,41 @@
+PBJ AKADEMI V2 — PANDUAN PENGGUNAAN
+=====================================
+Pembaruan: 13 Oktober 2026
+
+CARA MEMBUKA
+1. Ekstrak ZIP lengkap ke satu folder. Jangan membuka HTML langsung di dalam ZIP.
+2. Buka offline/index.html dengan Microsoft Edge, Chrome, atau browser modern.
+3. Aplikasi berjalan sepenuhnya offline. Folder offline/materi memuat PDF referensi.
+4. Alternatif: buka file PBJ_Akademi_v2_Latihan_Offline.html tanpa perlu ekstrak ZIP.
+   Soal dan kamus tetap terbaca dalam file tunggal, tetapi tautan PDF membutuhkan
+   struktur folder materi dari paket lengkap.
+
+PENGATURAN 294 SOAL
+- Pilih Mulai Latihan -> Gunakan seluruh 294 soal.
+  Tombol otomatis mengubah Kelompok: Seluruh 294,
+  Asal: Pemateri + e-learning, Kompetensi: Semua,
+  BAB: Semua, Jumlah: Semua sesuai filter.
+- Jika ingin hanya satu modul, pilih kompetensi tersebut lalu pilih
+  'Semua sesuai filter'. Ringkasan menampilkan jumlah soal nyata.
+- Dropdown 294 tidak mengabaikan filter kompetensi/BAB. Jika filter hanya
+  mempunyai 26 soal, sesi akan memakai maksimal 26 dan diberi peringatan.
+- 'Jumlah sendiri...' menerima 1 sampai 294 soal (dibatasi ketersediaan filter).
+
+PENGATURAN TIMER
+- Durasi berlaku baik pada 'Belajar dengan pembahasan' maupun 'Simulasi try out'.
+- Pilih 'Tanpa batas waktu' untuk belajar santai.
+- Pilih 15–360 menit atau 'Atur menit sendiri...' (1–720 menit).
+- Timer menyelesaikan sesi otomatis saat waktunya habis.
+- Pastikan waktu yang tampil di kotak ringkasan benar sebelum menekan Mulai.
+
+MENJAGA PROGRES DARI VERSI LAMA
+- Website menggunakan kunci penyimpanan lokal yang sama dengan versi terdahulu.
+- Jika progres lama tidak muncul di file/folder baru, pada website lama buka
+  Statistik Saya -> Ekspor progres JSON; pada versi baru gunakan Impor progres.
+- Penyimpanan lokal tergantung browser dan lokasi file. Buat cadangan secara berkala.
+
+TRANSPARANSI PENILAIAN
+- Total 294 soal = 194 pemateri + 100 try out historis.
+- 230 soal mempunyai kunci yang dapat dinilai dengan status audit tersedia.
+- 64 soal lainnya masih bisa dipelajari, tetapi tidak dipaksa memiliki kunci.
+- Ini tidak berarti seluruh kunci telah diverifikasi terhadap regulasi terbaru.

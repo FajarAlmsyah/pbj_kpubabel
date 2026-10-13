@@ -1,0 +1,26 @@
+LAPORAN QA PBJ AKADEMI V4 — MOBILE RESPONSIVE
+============================================
+Basis data: V3 yang diperbarui dari Try Out 2025 PDF 28 halaman.
+Pertanyaan: 294; kamus: 91.
+APP_DATA identik bit-per-bit dengan versi V3: True.
+SHA256 serialisasi APP_DATA: 238772cbfb3351657bb045064c28e5fef4ad23d6d853b8eb44e641be48ce40e4.
+Tidak ada kunci, skor historis, alasan, ataupun materi yang diubah.
+
+PENGUJIAN OTOMATIS MELALUI RENDERING CHROMIUM / PLAYWRIGHT
+- Resolusi diuji: 320x690, 360x740, 390x844, 430x932, 768x1024, 1024x768, 1440x900.
+- Tidak ditemukan horizontal overflow pada halaman awal dan pengaturan.
+- Sesi 294 soal unik dibuat dan navigasi ke nomor 137 berhasil.
+- Tombol pilihan jawaban, Periksa, lanjut, popup nomor soal diuji.
+- Filter seluruh 100 historis, seluruh 194 pemateri, jumlah khusus 37 dengan 75 menit, dan 10 soal tanpa timer diuji.
+- Mode try out tidak membocorkan pembahasan sebelum hasil.
+- Simpan dan lanjutkan sesi, akhir sesi, dan riwayat hasil diuji.
+- Menu drawer, navigasi bawah, pencarian soal, pencarian kamus, dan dark mode diuji.
+- Tidak ditemukan JavaScript page errors pada alur di atas.
+
+BATAS PENGUJIAN
+- Pengujian dilakukan dalam emulator viewport Chromium, bukan pengujian fisik pada seluruh model Android/iOS.
+- Karena akses file lokal dibatasi lingkungan pengujian, HTML dirender dengan browser automation set_content dan penyimpanan lokal disimulasikan untuk pengujian fungsional. Ini tidak menjamin persistensi data pada setiap browser file:// di ponsel.
+- Belum diuji otomatis pada Safari iOS asli.
+- Semua file PDF dalam paket dipertahankan dari paket V3, tanpa validasi substansi ulang.
+- 37 isu kunci pemateri dan 27 soal historis tanpa kunci resmi tetap belum diselesaikan.
+- Situs adalah file statis offline; tidak tersedia sebagai situs publik / PWA yang terinstal.

@@ -1,0 +1,25 @@
+PBJ AKADEMI V3 — LAPORAN PERBAIKAN TRY OUT 2025
+
+SUMBER
+- PDF baru: Try Out Pelatihan Kompetensi PBJP Level-1 (versi 3.1.2)_ Ulasan hasil pengerjaan kuis(1).pdf
+- 28 halaman, berisi soal 1–100 dan ringkasan nilai 73 dari 100.
+- File lama: Try Out Pelatihan Kompetensi PBJP Level-1 (versi 3.1.2)_ Ulasan hasil pengerjaan kuis.pdf; beberapa teks dan opsi terpotong.
+
+HASIL AUDIT
+- Seluruh 100 ID EL25-001 sampai EL25-100 ada dan unik.
+- 100 teks pertanyaan lengkap berhasil diekstraksi.
+- Empat opsi a,b,c,d terbaca pada setiap butir (400 opsi).
+- 73 skor 1/1, 27 skor 0/1 — sama dengan hasil historis.
+- Pilihan jawaban historis dari bank V2 dipertahankan.
+- 73 kunci hasil historis benar tetap dapat dinilai otomatis.
+- 27 soal historis salah tetap tidak dipaksakan kunci resmi, sehingga tidak dinilai otomatis.
+- Seluruh 194 soal pemateri tetap identik dengan bank V2.
+- Semua 294 soal masih unik; filter seluruh soal, per kompetensi, jumlah kustom, dan timer tetap tersedia.
+- PDF materi/tryout-historis.pdf kini berisi sumber yang diperbarui dan selaras dengan penunjuk halaman.
+- Halaman try out baru memiliki rentang 1 sampai 27 (halaman 28 informasi situs).
+
+PEMBATASAN
+- Verifikasi kelengkapan teks bukan validasi kebenaran hukum tahun 2026.
+- 37 isu pada soal pemateri tetap tercatat; tidak diselesaikan dengan mengganti PDF try out.
+- Isi teks bersumber dari PDF 2025, ejaan salah pada dokumen tetap dipertahankan.
+- Progres browser lama masih memakai identitas penyimpanan yang sama; ekspor data disarankan sebagai cadangan.

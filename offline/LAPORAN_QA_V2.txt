@@ -1,0 +1,29 @@
+LAPORAN QA — PBJ AKADEMI V2
+Tanggal: 13 Oktober 2026
+
+KOREKSI
+1. Pilihan 'Jumlah soal' sekarang menyediakan 'Semua sesuai filter'.
+2. Tombol 'Gunakan seluruh 294 soal' menghapus semua filter pembatas.
+3. Pengguna dapat memilih jumlah kustom antara 1 dan 294.
+4. Durasi timer dapat dipilih di mode belajar DAN simulasi.
+5. Durasi mendukung tanpa batas, preset, dan nilai kustom 1–720 menit.
+6. Waktu panjang ditampilkan dalam format JJ:MM:DD (jam:menit:detik).
+7. Ringkasan menginformasikan dengan jelas bila jumlah diminta lebih banyak
+   dari jumlah soal yang sesuai filter.
+8. Pengacakan memakai Fisher–Yates; tidak ada ID soal duplikat per sesi.
+9. Key localStorage tetap sama untuk kompatibilitas dengan progres sebelumnya.
+
+PENGUJIAN LOGIKA JAVASCRIPT (Node VM)
+PASS: 294 ID unik dipilih untuk bank lengkap, timer belajar 180 menit.
+PASS: Filter kompetensi Pengantar PBJP memilih tepat 26 soal, tanpa timer.
+PASS: Jumlah kustom 137, simulasi dengan timer kustom 75 menit.
+PASS: Meminta 294 pada filter 26 menggunakan 26, disertai peringatan.
+PASS: Nilai kustom di luar batas ditolak; tidak membuat sesi.
+PASS: Label dropdown dan status ringkasan sesuai pilihan.
+PASS: Sintaks JavaScript telah diperiksa dengan node --check.
+
+BATAS PENGUJIAN
+Uji klik end-to-end di browser otomasi tidak dapat dijalankan pada lingkungan
+ini karena navigasi Chromium diblokir oleh kebijakan administrator. Pengujian
+fungsi inti tetap dijalankan terhadap kode JavaScript asli dengan data 294 soal.
+Konten, status audit, dan kunci soal berasal dari paket v1 dan tidak diubah.

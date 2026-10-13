@@ -1,0 +1,41 @@
+PBJ AKADEMI V4 — MOBILE RESPONSIVE OFFLINE
+========================================
+Versi: 13 Oktober 2026
+
+CARA MEMBUKA DI KOMPUTER
+1. Ekstrak seluruh ZIP ke folder baru.
+2. Buka folder offline, lalu klik dua kali index.html memakai Chrome/Edge.
+3. Biarkan folder materi tetap bersama index.html agar tautan PDF dapat dibuka.
+
+CARA MEMBUKA DI PONSEL
+1. Ekstrak ZIP di penyimpanan ponsel.
+2. Buka offline/index.html menggunakan browser yang mendukung berkas HTML lokal.
+3. Perangkat/browser tertentu (khususnya pratinjau Files di iOS) mungkin membatasi JavaScript, tautan PDF, atau localStorage untuk file lokal. Jika terjadi, gunakan versi komputer atau buka paket melalui penyajian lokal/hosting statis yang dipercaya.
+4. Versi ini adalah halaman web offline, bukan aplikasi dari toko aplikasi dan belum memakai teknologi instalasi PWA.
+
+CARA MENGGUNAKAN
+- Ponsel: navigasi 5 menu di bawah (Beranda, Latihan, Soal, Kamus, Progres).
+- Menu samping (ikon tiga garis): Modul & Referensi, Panduan & QA.
+- Atur Latihan: bisa pilih 294 soal, kompetensi, sumber, jumlah soal, serta timer custom / tanpa batas.
+- Saat latihan: ketuk opsi A–D; tombol Periksa/Berikutnya selalu di bawah layar.
+- Tombol Soal nomor: membuka panel daftar 294 soal, bisa lompat langsung dengan memasukkan nomor.
+- Mode try out: pembahasan tidak tampil sebelum sesi selesai.
+- Tema gelap: tombol setengah lingkaran pada bagian kanan atas.
+- Statistik: ekspor/impor progres sebagai cadangan JSON.
+
+MEMINDAHKAN PROGRES V3 KE V4
+1. Di V3 buka Statistik, tekan Ekspor progres.
+2. Di V4 buka Statistik, tekan Impor progres dan pilih JSON tadi.
+3. Kunci penyimpanan lokal sama dengan V3; bila browser/origin sama progres dapat terbaca langsung, namun tidak dijamin lintas lokasi/berkas/perangkat.
+
+DATA DAN PENILAIAN
+- 294 soal (194 pemateri + 100 historis 2025).
+- 91 entri kamus materi.
+- Kunci dan pembahasan tidak diubah dari V3.
+- 230 soal terukur berdasarkan kunci yang tersedia; 64 lainnya berstatus belum dapat dinilai otomatis (37 isu pemateri + 27 e-learning).
+- Data tidak disinkronkan ke server. Progres disimpan lokal bila browser mengizinkan.
+- Validitas kunci lama terhadap seluruh regulasi 2026 belum dijamin; baca catatan QA.
+
+CATATAN PENTING
+- HTML mandiri dapat digunakan untuk latihan, namun tautan PDF memerlukan folder materi di ZIP.
+- Ujian open book milik Anda hanya memperbolehkan bahan cetak; website ditujukan untuk belajar SEBELUM ujian, bukan untuk digunakan saat ujian.

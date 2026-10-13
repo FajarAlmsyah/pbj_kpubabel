@@ -1,0 +1,7 @@
+services:
+  pbj-akademi:
+    build: .
+    container_name: pbj-akademi
+    restart: unless-stopped
+    ports:
+      - "8080:80"
